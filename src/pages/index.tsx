@@ -1,6 +1,10 @@
-import {useHello} from '../hooks/api/hello';
+import Navbar from "../components/Navbar";
 
 export default function Home() {
-	const {data: {time} = {time: Date.now()}} = useHello();
-	return <div>{time}</div>;
+	return (
+		<>
+			<Navbar />
+			{/* <h1 className="text-red-300">Test</h1> */}
+		</>
+	);
 }

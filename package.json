@@ -1,5 +1,5 @@
 {
-	"name": "next-boilerplate",
+	"name": "ggredo",
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
@@ -9,11 +9,15 @@
 		"lint": "eslint ."
 	},
 	"dependencies": {
+		"@headlessui/react": "^1.4.1",
+		"autoprefixer": "^10.3.7",
 		"next": "^11.1.2",
 		"nextkit": "^1.2.3",
+		"postcss": "^8.3.9",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",
-		"swr": "^1.0.1"
+		"swr": "^1.0.1",
+		"tailwindcss": "^2.2.17"
 	},
 	"devDependencies": {
 		"@types/react": "^17.0.27",
