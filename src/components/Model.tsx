@@ -6,7 +6,7 @@ export default function Model() {
 			{/* @ts-ignore */}
 			<model-viewer
 				alt="Goethe Gymnasium Gebäude"
-				src="/model.gltf"
+				src="https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb"
 				ar
 				ar-modes="webxr scene-viewer quick-look"
 				auto-rotate

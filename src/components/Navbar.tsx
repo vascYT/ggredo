@@ -7,7 +7,7 @@ export default function Navbar() {
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
 			if (window.pageYOffset > 0) {
-				setStyles("bg-white text-black");
+				setStyles("bg-white text-[#fbac04]");
 			} else {
 				setStyles("bg-[#fbac04] text-white");
 			}
