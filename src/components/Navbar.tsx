@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import Dropdown from "./Dropdown";
+import {FaSearch, FaBars} from "react-icons/fa";
 
 export default function Navbar() {
 	const [styles, setStyles] = useState("bg-[#fbac04] text-white");
@@ -38,15 +39,15 @@ export default function Navbar() {
 						</ul>
 						<div className="hidden xl:flex space-x-5 items-center">
 							<a className="flex items-center hover:text-gray-200" href="#">
-								<img src="/icons/search.svg" />
+								<FaSearch />
 							</a>
 						</div>
 					</div>
 					<a className="navbar-burger self-center mr-6 xl:hidden" href="#">
-						<img src="/icons/search.svg" />
+						<FaSearch />
 					</a>
 					<a className="navbar-burger self-center mr-12 xl:hidden" href="#">
-						<img src="/icons/menu.svg" />
+						<FaBars />
 					</a>
 				</nav>
 			</section>

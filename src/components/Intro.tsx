@@ -11,26 +11,22 @@ export default function Intro() {
 						<ModelWithNoSSR />
 					</div>
 				</div>
-				<div className="w-full md:w-[50%] font-intro">
-					<div className="flex flex-col">
-						<div className="w-full ml-[2vw]">
-							<h1 className="text-5xl md:text-[5vw] leading-none font-bold mt-[5vh] md:mt-[20vh]">
+				<div className="md:w-[50%] font-intro h-full w-full">
+					<div className="flex flex-col ml-[2vw] items-center justify-center h-full">
+						<div className="w-full">
+							<h1 className="text-5xl md:text-[5vw] leading-none font-bold">
 								<span>Goethe</span>
 								<br />
 								<span className="ml-[7vw]">Gymnasium</span>
 							</h1>
 						</div>
 						<div className="w-full">
-							<p className="text-2xl md:text-[1.75vw] opacity-60 text-right mr-[8vw]">
-								FÜR DEINE ZUKUNFT
-							</p>
+							<p className="text-2xl md:text-[1.75vw] opacity-60 text-right">FÜR DEINE ZUKUNFT</p>
 						</div>
 					</div>
 				</div>
-				<div className="w-[50%] hidden md:block">
-					<div className="mt-[15vh]">
-						<ModelWithNoSSR />
-					</div>
+				<div className="hidden md:flex flex-col mr-[2vw] items-center justify-center h-full w-full">
+					<ModelWithNoSSR />
 				</div>
 			</div>
 		</>
