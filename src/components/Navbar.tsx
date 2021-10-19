@@ -29,9 +29,7 @@ export default function Navbar() {
 								<Dropdown name="Test1" items={[{name: "test1", href: "#test1"}]} />
 							</li>
 							<li>
-								<a className="hover:text-gray-200" href="#">
-									<Dropdown name="Test2" items={[{name: "test2", href: "#test2"}]} />
-								</a>
+								<Dropdown name="Test2" items={[{name: "test2", href: "#test2"}]} />
 							</li>
 							<li>
 								<Dropdown name="Test3" items={[{name: "test3", href: "#test3"}]} />
@@ -46,7 +44,7 @@ export default function Navbar() {
 					<a className="navbar-burger self-center mr-6 xl:hidden" href="#">
 						<FaSearch />
 					</a>
-					<a className="navbar-burger self-center mr-12 xl:hidden" href="#">
+					<a className="navbar-burger self-center mr-12 md:hidden" href="#">
 						<FaBars />
 					</a>
 				</nav>

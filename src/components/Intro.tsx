@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import {FiArrowDown} from "react-icons/fi";
 
 const ModelWithNoSSR = dynamic(() => import("./Model"), {ssr: false});
 
@@ -27,6 +28,16 @@ export default function Intro() {
 				</div>
 				<div className="hidden md:flex flex-col mr-[2vw] items-center justify-center h-full w-full">
 					<ModelWithNoSSR />
+				</div>
+				<div className="absolute bottom-0 w-full h-14">
+					<div className="flex flex-row justify-center">
+						<FiArrowDown
+							className="h-8 w-8 animate-bounce hover:cursor-pointer"
+							onClick={() => {
+								console.log("test");
+							}}
+						/>
+					</div>
 				</div>
 			</div>
 		</>
