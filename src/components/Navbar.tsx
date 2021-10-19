@@ -41,10 +41,10 @@ export default function Navbar() {
 							</a>
 						</div>
 					</div>
-					<a className="navbar-burger self-center mr-6 xl:hidden" href="#">
+					<a className="navbar-burger self-center mr-5 xl:hidden" href="#">
 						<FaSearch />
 					</a>
-					<a className="navbar-burger self-center mr-12 md:hidden" href="#">
+					<a className="navbar-burger self-center mr-5 md:hidden" href="#">
 						<FaBars />
 					</a>
 				</nav>

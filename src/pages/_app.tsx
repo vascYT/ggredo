@@ -1,4 +1,5 @@
 import "tailwindcss/tailwind.css";
+import "../css/index.css";
 import React from "react";
 import {AppProps} from "next/app";
 import Navbar from "../components/Navbar";

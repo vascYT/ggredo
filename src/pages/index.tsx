@@ -1,5 +1,6 @@
 import Intro from "../components/Intro";
 import Head from "next/head";
+import Posts from "../components/Posts";
 
 export default function Home() {
 	return (
@@ -8,17 +9,7 @@ export default function Home() {
 				<title>Home - Goethe Gymnasium</title>
 			</Head>
 			<Intro />
-			<h1>test</h1>
-			<h1>test</h1>
-			<h1>test</h1>
-			<h1>test</h1>
-			<h1>test</h1>
-			<h1>test</h1>
-			<h1>test</h1>
-			<h1>test</h1>
-			<h1>test</h1>
-			<h1>test</h1>
-			<h1>test</h1>
+			<Posts />
 		</>
 	);
 }

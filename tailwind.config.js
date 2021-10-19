@@ -7,7 +7,11 @@ module.exports = {
 			text: ["ui-sans-serif", "system-ui"],
 			intro: ["Montserrat", "sans-serif"],
 		},
-		extend: {},
+		extend: {
+			backgroundImage: {
+				wave1: "url('/wave1.svg')",
+			},
+		},
 	},
 	variants: {
 		extend: {},
