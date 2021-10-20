@@ -12,7 +12,7 @@ export default function Intro() {
 						<ModelWithNoSSR />
 					</div>
 				</div>
-				<div className="md:w-[50%] font-intro h-full w-full">
+				<div className="md:w-[50%] font-title h-full w-full">
 					<div className="flex flex-col ml-[2vw] items-center md:justify-center h-full">
 						<div className="w-full">
 							<h1 className="text-4xl md:text-[5vw] leading-none font-bold">
