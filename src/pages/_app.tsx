@@ -17,7 +17,10 @@ export default function App({Component, pageProps}: AppProps) {
 				/>
 			</Head>
 			<Navbar />
-			<Component {...pageProps} />
+			<div className="h-screen bg-white">
+				{/* Fill blank space with white color as default */}
+				<Component {...pageProps} />
+			</div>
 		</>
 	);
 }

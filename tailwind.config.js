@@ -10,6 +10,10 @@ module.exports = {
 		extend: {
 			backgroundImage: {
 				wave1: "url('/wave1.svg')",
+				wave2: "url('/wave2.svg')",
+			},
+			colors: {
+				ggorange: "#fbac04",
 			},
 		},
 	},

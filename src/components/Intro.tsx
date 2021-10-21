@@ -6,16 +6,16 @@ const ModelWithNoSSR = dynamic(() => import("./Model"), {ssr: false});
 export default function Intro() {
 	return (
 		<>
-			<div className="flex flex-col items-center md:items-start md:flex-row h-[90vh] w-full bg-[#fbac04] text-white">
+			<div className="flex flex-col items-center md:items-start md:flex-row h-[90vh] w-full bg-ggorange text-white">
 				<div className="w-full block md:hidden">
 					<div className="mt-[5vh]">
 						<ModelWithNoSSR />
 					</div>
 				</div>
 				<div className="md:w-[50%] font-title h-full w-full">
-					<div className="flex flex-col ml-[2vw] items-center md:justify-center h-full">
+					<div className="flex flex-col ml-[2vw] items-center justify-center h-full pl-8 pr-8 md:p-0">
 						<div className="w-full">
-							<h1 className="text-4xl md:text-[5vw] leading-none font-bold">
+							<h1 className="text-[10vw] md:text-[5vw] leading-none font-bold">
 								<span>Goethe</span>
 								<br />
 								<span className="ml-[7vw]">Gymnasium</span>
@@ -28,7 +28,7 @@ export default function Intro() {
 						</div>
 					</div>
 				</div>
-				<div className="hidden md:flex flex-col mr-[2vw] items-center justify-center h-full w-full">
+				<div className="hidden md:flex flex-col mr-[2vw] items-center justify-center h-full w-[50%]">
 					<ModelWithNoSSR />
 				</div>
 				<div className="absolute bottom-0 w-full h-14">
