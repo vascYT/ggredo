@@ -4,8 +4,8 @@ export default function Disclaimer() {
 	return (
 		<>
 			<div className="fixed bottom-1 left-0 w-full">
-				<p className="uppercase text-[#ffffff50] text-md ml-2">
-					Prototype {commitId && `(${commitId})`}
+				<p className="text-[#ffffff50] text-md ml-2">
+					<span className="uppercase">Prototype</span> {commitId && `(${commitId})`}
 				</p>
 			</div>
 		</>

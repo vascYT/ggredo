@@ -53,11 +53,15 @@ export default function Navbar() {
 							</a>
 						</div>
 					</div>
-					<FaSearch className="navbar-burger self-center mr-5 xl:hidden hover:cursor-pointer" />
-					<FaBars
+					<button className="navbar-burger self-center mr-5 xl:hidden hover:cursor-pointer">
+						<FaSearch />
+					</button>
+					<button
 						onClick={toggleMobileItems}
 						className="navbar-burger self-center mr-5 md:hidden hover:cursor-pointer"
-					/>
+					>
+						<FaBars />
+					</button>
 				</nav>
 			</section>
 			<AnimatePresence>
