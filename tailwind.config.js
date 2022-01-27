@@ -1,7 +1,6 @@
 module.exports = {
 	mode: "jit",
-	purge: ["./src/pages/**/*.{js,ts,jsx,tsx}", "./src/components/**/*.{js,ts,jsx,tsx}"],
-	darkMode: false,
+	content: ["./src/pages/**/*.{js,ts,jsx,tsx}", "./src/components/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		fontFamily: {
 			text: ["ui-sans-serif", "system-ui"],
@@ -16,9 +15,6 @@ module.exports = {
 				ggorange: "#fbac04",
 			},
 		},
-	},
-	variants: {
-		extend: {},
 	},
 	plugins: [],
 };
