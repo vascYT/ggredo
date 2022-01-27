@@ -4,6 +4,7 @@ import React from "react";
 import {AppProps} from "next/app";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 export default function App({Component, pageProps}: AppProps) {
 	return (
@@ -16,10 +17,12 @@ export default function App({Component, pageProps}: AppProps) {
 					rel="stylesheet"
 				/>
 			</Head>
-			<Navbar />
+
 			<div className="h-screen bg-white">
+				<Navbar />
 				{/* Fill blank space with white color as default */}
 				<Component {...pageProps} />
+				<Footer />
 			</div>
 		</>
 	);

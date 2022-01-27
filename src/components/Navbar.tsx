@@ -18,7 +18,7 @@ export default function Navbar() {
 
 	return (
 		<>
-			<section className="sticky top-0 z-50 mx-auto">
+			<section className="sticky top-0 z-50 mx-auto bg-ggorange">
 				<nav
 					className={`transition-colors duration-300 flex justify-between w-full h-[9vh] text-white border-b-[1px] ${styles}`}
 				>
