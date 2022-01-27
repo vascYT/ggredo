@@ -1,7 +1,7 @@
 ---
-title: "Post1"
+title: "Post2"
 date: "January 27, 2022"
-description: "This is the first post"
+description: "This is the second post"
 thumbnailUrl: "/test.png"
 tags: ["post", "first"]
 ---
