@@ -5,6 +5,7 @@ import {AppProps} from "next/app";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import Footer from "../components/Footer";
+import EasterEgg from "../components/EasterEgg";
 
 export default function App({Component, pageProps}: AppProps) {
 	return (
@@ -17,8 +18,8 @@ export default function App({Component, pageProps}: AppProps) {
 					rel="stylesheet"
 				/>
 			</Head>
-
 			<div className="h-screen bg-white">
+				<EasterEgg />
 				<Navbar />
 				<Component {...pageProps} />
 				<Footer />

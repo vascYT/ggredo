@@ -1,5 +1,5 @@
 import "@google/model-viewer";
-import Popup from "./Popup";
+import Popup from "./Modal";
 
 export default function Model() {
 	return (
@@ -10,8 +10,8 @@ export default function Model() {
 				src="/astgasse.glb"
 				auto-rotate
 				camera-controls
+				field-of-view="60deg"
 				class="w-full h-[50vh] md:w-[40vw] md:h-[30vw]"
-				poster=""
 			>
 				<Popup
 					trigger={
@@ -23,7 +23,7 @@ export default function Model() {
 							data-visibility-attribute="visible"
 						/>
 					}
-					title="TEST"
+					title="Test"
 				>
 					<img src="https://www.image-engineering.de/content/products/charts/te166/images/TE166.jpg" />
 				</Popup>

@@ -27,17 +27,17 @@ export default function Dropdown(props: PropsWithChildren<props>) {
 					>
 						<Menu.Items
 							static
-							className="absolute w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
+							className="absolute w-56 mt-2 origin-top-left bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none"
 						>
-							<div className="py-1">
+							<div className="px-1 py-1">
 								{props.items.map(item => (
 									<Menu.Item>
 										{({active}) => (
 											<a
 												href={item.href}
 												className={`${
-													active ? "bg-gray-100 text-gray-900" : "text-gray-700"
-												} flex justify-between w-full px-4 py-2 text-sm leading-5 text-left`}
+													active ? "bg-gray-300 text-gray-900" : "text-gray-700"
+												} flex rounded-md items-center w-full px-2 py-2 text-sm`}
 											>
 												{item.name}
 											</a>

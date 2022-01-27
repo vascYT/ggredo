@@ -2,9 +2,12 @@ import {useEffect, useState} from "react";
 import Dropdown from "./Dropdown";
 import {FaSearch, FaBars} from "react-icons/fa";
 import Link from "next/link";
+import {AnimatePresence, motion} from "framer-motion";
 
 export default function Navbar() {
 	const [styles, setStyles] = useState("bg-none border-[#00000000]");
+	const [search, setSearch] = useState("");
+	const [showMobileItems, setShowMobileItems] = useState(false);
 
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
@@ -16,9 +19,13 @@ export default function Navbar() {
 		});
 	}, []);
 
+	const toggleMobileItems = () => {
+		setShowMobileItems(!showMobileItems);
+	};
+
 	return (
 		<>
-			<section className="sticky top-0 z-50 mx-auto bg-ggorange">
+			<section className="sticky top-0 z-30 mx-auto bg-ggorange">
 				<nav
 					className={`transition-colors duration-300 flex justify-between w-full h-[9vh] text-white border-b-[1px] ${styles}`}
 				>
@@ -50,10 +57,35 @@ export default function Navbar() {
 						<FaSearch />
 					</a>
 					<a className="navbar-burger self-center mr-5 md:hidden" href="#">
-						<FaBars />
+						<FaBars onClick={toggleMobileItems} />
 					</a>
 				</nav>
 			</section>
+			<AnimatePresence>
+				{showMobileItems && (
+					<>
+						<motion.div
+							key="mobile-items"
+							initial={{x: 310}}
+							animate={{x: 0}}
+							transition={{duration: 0.4, ease: "backInOut"}}
+							exit={{x: 310}}
+							className="fixed bg-white w-[300px] h-full top-0 right-0 z-50 overflow-hidden rounded-md"
+						>
+							<button onClick={toggleMobileItems}>Close</button>
+							<p>WIP</p>
+						</motion.div>
+						<motion.div /* Dimmed Background */
+							key="dimmed-bg"
+							initial={{opacity: 0}}
+							animate={{opacity: 0.5}}
+							transition={{duration: 0.4}}
+							exit={{opacity: 0}}
+							className="fixed top-0 left-0 h-full w-full bg-black z-40"
+						></motion.div>
+					</>
+				)}
+			</AnimatePresence>
 		</>
 	);
 }

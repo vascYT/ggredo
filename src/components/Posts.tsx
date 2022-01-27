@@ -12,7 +12,7 @@ export default function Posts() {
 				className="flex flex-row items-center justify-center bg-wave1 bg-cover bg-no-repeat w-full bg-white h-[500px] text-center xl:text-left"
 			>
 				<div>
-					<h1 className="relative text-2xl md:text-4xl font-title mb-6 uppercase opacity-75 before:bg-[#fbad04de] before:z-[-1] before:w-[28vw] xl:before:w-[315px] before:h-[13px] before:absolute before:bottom-0 before:left-[40%] xl:before:left-[40px]">
+					<h1 className="relative text-2xl md:text-4xl font-title mb-6 uppercase opacity-75">
 						Letzte Beiträge
 					</h1>
 					<div className="w-full xl:inline-grid grid-cols-3 gap-x-6">

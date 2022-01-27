@@ -13,7 +13,7 @@ export default function Intro() {
 					</div>
 				</div>
 				<div className="md:w-[50%] font-title h-full w-full">
-					<div className="flex flex-col ml-[2vw] items-center justify-center h-full pl-8 pr-8 md:p-0">
+					<div className="md:flex flex-col ml-[2vw] items-center justify-center h-full pl-8 pr-8 md:p-0">
 						<div className="w-full">
 							<h1 className="text-[10vw] md:text-[5vw] leading-none font-bold">
 								<span>Goethe</span>
