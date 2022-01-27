@@ -1,23 +1,9 @@
-import {useEffect, useState} from "react";
-import {supabase} from "../utils/supaclient";
 import Link from "next/link";
+import useSWR from "swr";
+import {fetcher} from "../../utils/fetcher";
 
 export default function Posts() {
-	const [posts, setPosts] = useState<Post[] | null>();
-
-	useEffect(() => {
-		const getPosts = async () => {
-			let {data: response, error} = await supabase
-				.from("posts")
-				.select("*")
-				.order("created_at", {ascending: false, nullsFirst: false})
-				.limit(3);
-
-			if (error) console.log("An error occoured while fetching the posts");
-			else setPosts(response);
-		};
-		getPosts();
-	}, []);
+	const {error, data} = useSWR(`/api/posts`, fetcher);
 
 	return (
 		<>
@@ -30,26 +16,26 @@ export default function Posts() {
 						Letzte Beiträge
 					</h1>
 					<div className="w-full xl:inline-grid grid-cols-3 gap-x-6">
-						{posts ? (
-							posts.map(post => (
-								<div className="w-full pl-16 pr-16 md:p-0 xl:w-[20vw] mb-5 md:m-0" key={post.id}>
-									<p className="text-sm text-gray-500">
-										{new Date(post.created_at).toLocaleString("default", {
-											day: "numeric",
-											month: "long",
-											year: "numeric",
-											hour: "numeric",
-											minute: "numeric",
-										})}
-									</p>
-									<Link href={`/post/${post.id}`}>
+						{data ? (
+							data.map((post: any) => (
+								<div
+									className="w-full pl-16 pr-16 md:p-0 xl:w-[20vw] mb-5 md:m-0"
+									key={post.head.slug}
+								>
+									<p className="text-sm text-gray-500">{post.head.date}</p>
+									<Link href={`/post/${post.slug}`}>
 										<a>
-											<h1 className="text-xl uppercase font-bold text-ggorange">{post.title}</h1>
+											<h1 className="text-xl uppercase font-bold text-ggorange">
+												{post.head.title}
+											</h1>
 										</a>
 									</Link>
-									<p className="text-sm">{`${post.body.substr(0, 200)} ${
-										post.body.length > 200 ? "..." : ""
-									}`}</p>
+									<p
+										className="text-sm"
+										dangerouslySetInnerHTML={{
+											__html: `${post.body.substr(0, 200)} ${post.body.length > 200 ? "..." : ""}`,
+										}}
+									/>
 								</div>
 							))
 						) : (
