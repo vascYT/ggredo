@@ -6,9 +6,9 @@ export default function Footer() {
 		<>
 			<img className="w-full" src="/wave3.svg" />
 			<footer className="bg-gray-900">
-				<div className="container mx-auto px-36 pb-8">
-					<div className="flex flex-row">
-						<div className="md:mr-8 w-[30%]">
+				<div className="container mx-auto px-10 pb-8">
+					<div className="flex flex-col md:flex-row">
+						<div className="md:mr-8 w-full md:w-[30%]">
 							<h1 className="text-2xl font-title font-bold text-white mb-3">Goethe-Gymnasium</h1>
 							<div className="inline-flex space-x-3">
 								<a
@@ -31,7 +31,7 @@ export default function Footer() {
 								</a>
 							</div>
 						</div>
-						<div className="flex flex-col md:flex-row items-center justify-center text-right md:text-center text-white w-[70%]">
+						<div className="flex flex-col md:flex-row items-center justify-center mt-5 md:mt-0 md:text-center text-white w-[70%]">
 							<span className="w-full text-gray-400">
 								<a href="/kontakt" className="hover:text-gray-200">
 									Kontakt
