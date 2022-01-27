@@ -20,7 +20,6 @@ export default function App({Component, pageProps}: AppProps) {
 
 			<div className="h-screen bg-white">
 				<Navbar />
-				{/* Fill blank space with white color as default */}
 				<Component {...pageProps} />
 				<Footer />
 			</div>
