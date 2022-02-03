@@ -6,6 +6,7 @@ export default function Model() {
 		<>
 			{/* @ts-ignore */}
 			<model-viewer
+				id="astgasseModel"
 				alt="Goethe Gymnasium Gebäude"
 				src="/astgasse_v0.3.glb"
 				auto-rotate

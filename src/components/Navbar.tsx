@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import Dropdown from "./Dropdown";
+import NavbarItem from "./NavbarItem";
 import {FaSearch, FaBars} from "react-icons/fa";
 import Link from "next/link";
 import {AnimatePresence, motion} from "framer-motion";
@@ -38,13 +38,27 @@ export default function Navbar() {
 						</Link>
 						<ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
 							<li>
-								<Dropdown name="Test1" items={[{name: "test1", href: "#test1"}]} />
+								<NavbarItem
+									name="Test1"
+									items={[
+										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
+										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
+										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
+										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
+									]}
+								/>
 							</li>
 							<li>
-								<Dropdown name="Test2" items={[{name: "test2", href: "#test2"}]} />
+								<NavbarItem
+									name="Test2"
+									items={[{name: "test2", href: "#test2", imageUrl: "/team.jpg"}]}
+								/>
 							</li>
 							<li>
-								<Dropdown name="Test3" items={[{name: "test3", href: "#test3"}]} />
+								<NavbarItem
+									name="Test3"
+									items={[{name: "test3", href: "#test3", imageUrl: "/team.jpg"}]}
+								/>
 							</li>
 						</ul>
 						<div className="hidden xl:flex space-x-5 items-center">

@@ -10,6 +10,7 @@ module.exports = {
 			backgroundImage: {
 				wave1: "url('/wave1.svg')",
 				wave2: "url('/wave2.svg')",
+				team: "url('/team.jpg')",
 			},
 			colors: {
 				ggorange: "#fbac04",
