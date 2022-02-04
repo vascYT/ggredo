@@ -28,15 +28,20 @@ export default function Dropdown(props: PropsWithChildren<props>) {
 						<Popover.Panel className="absolute z-10 mt-3 transform -translate-x-1/2">
 							<div className="grid grid-cols-2 w-[350px] h-[250px] bg-white p-2 gap-x-2 gap-y-2 rounded-lg shadow-lg">
 								{props.items.map(item => (
-									<div
+									<a
+										href={item.href}
 										className={
-											"flex flex-col items-center justify-center col-span-1 bg-no-repeat bg-cover bg-center h-full rounded-lg"
+											"relative flex flex-col items-center justify-center col-span-1 bg-no-repeat bg-cover bg-center h-full"
 										}
-										style={{backgroundImage: `url("${item.imageUrl}")`}}
+										// style={{backgroundImage: `url("${item.imageUrl}")`}}
 										key={item.name}
 									>
-										<a href={item.href}>{item.name}</a>
-									</div>
+										<img
+											src={item.imageUrl}
+											className="absolute w-full h-full object-cover brightness-50 rounded-lg transition-transform hover:scale-[102%]"
+										/>
+										<span className="z-10 pointer-events-none">{item.name}</span>
+									</a>
 								))}
 							</div>
 						</Popover.Panel>
