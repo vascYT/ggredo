@@ -31,16 +31,20 @@ export default function Dropdown(props: PropsWithChildren<props>) {
 									<a
 										href={item.href}
 										className={
-											"relative flex flex-col items-center justify-center col-span-1 bg-no-repeat bg-cover bg-center h-full"
+											"relative flex flex-col items-center justify-center col-span-1 bg-no-repeat bg-cover bg-center h-full transition-transform hover:scale-[102%]"
 										}
 										// style={{backgroundImage: `url("${item.imageUrl}")`}}
 										key={item.name}
 									>
-										<img
-											src={item.imageUrl}
-											className="absolute w-full h-full object-cover brightness-50 rounded-lg transition-transform hover:scale-[102%]"
-										/>
 										<span className="z-10 pointer-events-none">{item.name}</span>
+										<Image
+											src={item.imageUrl}
+											layout="fill"
+											quality={5}
+											placeholder="blur"
+											blurDataURL={item.imageUrl}
+											className="absolute w-full h-full object-cover brightness-50 rounded-lg"
+										/>
 									</a>
 								))}
 							</div>
