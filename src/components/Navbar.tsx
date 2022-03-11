@@ -25,7 +25,7 @@ export default function Navbar() {
 
 	return (
 		<>
-			<section className="sticky top-0 z-30 mx-auto bg-ggorange">
+			<section className="sticky top-0 z-30 mx-auto bg-transparent">
 				<nav
 					className={`transition-colors duration-300 flex justify-between w-full h-[9vh] text-white border-b-[1px] ${styles}`}
 				>
@@ -41,7 +41,7 @@ export default function Navbar() {
 								<NavbarItem
 									name="Test1"
 									items={[
-										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
+										{name: "Team", href: "/team", imageUrl: "/team.jpg"},
 										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
 										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
 										{name: "Team", href: "#team", imageUrl: "/team.jpg"},

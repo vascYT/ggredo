@@ -2,7 +2,7 @@
 title: "Post3"
 date: "January 27, 2022"
 description: "This is the third post"
-thumbnailUrl: "/test.png"
+thumbnailUrl: "/team.jpg"
 tags: ["post", "first"]
 ---
 

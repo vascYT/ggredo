@@ -8,7 +8,7 @@ export default function Home({posts, gitHash}: any) {
 	return (
 		<>
 			<Head>
-				<title>Home - Goethe Gymnasium</title>
+				<title>Home • Goethe Gymnasium</title>
 			</Head>
 			<Intro />
 			<Posts posts={posts} />
