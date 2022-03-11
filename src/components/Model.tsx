@@ -8,7 +8,7 @@ export default function Model() {
 			<model-viewer
 				id="astgasseModel"
 				alt="Goethe Gymnasium Gebäude"
-				src="/astgasse_v0.3.glb"
+				src="/astgasse_v0.4.glb"
 				auto-rotate
 				camera-controls
 				field-of-view="60deg"
