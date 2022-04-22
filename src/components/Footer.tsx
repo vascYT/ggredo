@@ -5,7 +5,7 @@ export default function Footer() {
 	return (
 		<>
 			<footer className="bg-gray-900">
-				<img className="w-full" src="/wave3.svg" />
+				<img className="w-full" src="/wave3.svg" alt="" />
 				<div className="container mx-auto px-10 pb-8 bg-gray-900">
 					<div className="flex flex-col md:flex-row">
 						<div className="md:mr-8 w-full md:w-[30%]">

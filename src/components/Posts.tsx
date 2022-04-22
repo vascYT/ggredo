@@ -14,7 +14,7 @@ export default function Posts({posts}: any) {
 					</h1>
 					<div className="w-full md:inline-grid grid-cols-3 md:gap-x-6 md:px-20">
 						{posts.map((post: any) => (
-							<Link href={`/post/${post.slug}`}>
+							<Link href={`/post/${post.slug}`} key={post.head.slug}>
 								<a
 									className="w-full xl:w-[20vw] mb-5 md:m-0 bg-[#00000010] border border-[#00000020] rounded-lg shadow transition-transform hover:scale-[102%]"
 									key={post.slug}

@@ -26,7 +26,10 @@ export default function Model() {
 					}
 					title="Test"
 				>
-					<img src="https://www.image-engineering.de/content/products/charts/te166/images/TE166.jpg" />
+					<img
+						src="https://www.image-engineering.de/content/products/charts/te166/images/TE166.jpg"
+						alt="No image available"
+					/>
 				</Popup>
 				{/* @ts-ignore */}
 			</model-viewer>

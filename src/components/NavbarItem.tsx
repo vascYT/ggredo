@@ -28,7 +28,7 @@ export default function Dropdown(props: PropsWithChildren<props>) {
 						<Popover.Panel className="absolute z-10 mt-3 transform -translate-x-1/2">
 							<div className="grid grid-cols-2 w-[350px] h-[250px] bg-white p-2 gap-x-2 gap-y-2 rounded-lg shadow-lg">
 								{props.items.map(item => (
-									<Link href={item.href}>
+									<Link href={item.href} key={item.name}>
 										<a
 											className={
 												"relative flex flex-col items-center justify-center col-span-1 bg-no-repeat bg-cover bg-center h-full transition-transform hover:scale-[102%] rounded bg-blend-darken bg-[#00000095]"
