@@ -8,7 +8,7 @@ export default function Posts({posts}: any) {
 					<h1 className="relative text-3xl md:text-4xl font-title mb-6 uppercase opacity-75">
 						Letzte Beiträge
 					</h1>
-					<div className="w-full md:inline-grid grid-cols-3 md:gap-x-6 px-20 xl:px-0">
+					<div className="w-full md:inline-grid grid-cols-3 md:gap-x-6 px-20 xl:px-10">
 						{posts.map((post: any) => (
 							<Link href={`/post/${post.slug}`} key={post.slug}>
 								<a key={post.slug}>

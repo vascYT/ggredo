@@ -1,12 +1,56 @@
-import {useEffect, useState} from "react";
-import NavbarItem from "./NavbarItem";
+import {PropsWithChildren, useEffect, useState} from "react";
 import {FaSearch, FaBars} from "react-icons/fa";
 import Link from "next/link";
 import {AnimatePresence, motion} from "framer-motion";
+import {Popover, Transition} from "@headlessui/react";
+import {RiArrowDropDownLine} from "react-icons/ri";
+
+function NavbarItem(
+	props: PropsWithChildren<{
+		name: string;
+		items: Array<{name: string; href: string; imageUrl: string}>;
+	}>
+) {
+	return (
+		<Popover>
+			{({open, close}) => (
+				<>
+					<Popover.Button className="font-text inline-flex items-center">
+						{props.name}{" "}
+						<RiArrowDropDownLine className={`transition-all h-6 w-6 ${open ? "rotate-180" : ""}`} />
+					</Popover.Button>
+
+					<Transition
+						enter="transition ease-out duration-200"
+						enterFrom="opacity-0 translate-y-1"
+						enterTo="opacity-100 translate-y-0"
+						leave="transition ease-in duration-150"
+						leaveFrom="opacity-100 translate-y-0"
+						leaveTo="opacity-0 translate-y-1"
+					>
+						<Popover.Panel className="absolute w-[150px] z-10 mt-3">
+							<div className="bg-white border border-[#00000020] p-2 rounded-lg shadow">
+								{props.items.map(item => (
+									<Link href={item.href} key={item.name}>
+										<a onClick={close as any}>
+											<div className="px-4 py-2 text-black font-normal text-center rounded-lg hover:bg-[#00000020]">
+												{item.name}
+											</div>
+										</a>
+									</Link>
+								))}
+							</div>
+						</Popover.Panel>
+					</Transition>
+				</>
+			)}
+		</Popover>
+	);
+}
 
 export default function Navbar() {
 	const [styles, setStyles] = useState("bg-none border-[#00000000]");
-	const [search, setSearch] = useState("");
+	// const [search, setSearch] = useState("");
 	const [showMobileItems, setShowMobileItems] = useState(false);
 
 	useEffect(() => {
@@ -39,25 +83,23 @@ export default function Navbar() {
 						<ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
 							<li>
 								<NavbarItem
-									name="Test1"
+									name="Schulbetrieb"
 									items={[
 										{name: "Team", href: "/team", imageUrl: "/team.jpg"},
-										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
-										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
-										{name: "Team", href: "#team", imageUrl: "/team.jpg"},
+										{name: "Fächer", href: "/subjects", imageUrl: "/team.jpg"},
+										{name: "Aufnahme", href: "/admission", imageUrl: "/team.jpg"},
+										{name: "Formulare", href: "/forms", imageUrl: "/team.jpg"},
 									]}
 								/>
 							</li>
 							<li>
 								<NavbarItem
-									name="Test2"
-									items={[{name: "test2", href: "#test2", imageUrl: "/team.jpg"}]}
-								/>
-							</li>
-							<li>
-								<NavbarItem
-									name="Test3"
-									items={[{name: "test3", href: "#test3", imageUrl: "/team.jpg"}]}
+									name="Termine & Aktivitäten"
+									items={[
+										{name: "Schuljahr", href: "/year", imageUrl: "/team.jpg"},
+										{name: "Projekte", href: "/projects", imageUrl: "/team.jpg"},
+										{name: "Tag der offenen Tür", href: "/tdot", imageUrl: "/team.jpg"},
+									]}
 								/>
 							</li>
 						</ul>

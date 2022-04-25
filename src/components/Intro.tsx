@@ -1,7 +1,5 @@
-import dynamic from "next/dynamic";
 import {FiArrowDown} from "react-icons/fi";
-
-const ModelWithNoSSR = dynamic(() => import("./Model"), {ssr: false});
+import Model from "./Model";
 
 export default function Intro() {
 	return (
@@ -9,7 +7,7 @@ export default function Intro() {
 			<div className="flex flex-col items-center md:items-start md:flex-row h-[90vh] w-full bg-ggorange text-white">
 				<div className="w-full block md:hidden">
 					<div className="mt-[5vh]">
-						<ModelWithNoSSR />
+						<Model />
 					</div>
 				</div>
 				<div className="md:w-[50%] font-title h-full w-full">
@@ -29,7 +27,7 @@ export default function Intro() {
 					</div>
 				</div>
 				<div className="hidden md:flex flex-col mr-[2vw] items-center justify-center h-full w-[50%]">
-					<ModelWithNoSSR />
+					<Model />
 				</div>
 				<div className="absolute bottom-0 w-full h-14">
 					<div className="flex flex-row justify-center">

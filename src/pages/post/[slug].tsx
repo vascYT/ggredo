@@ -1,11 +1,11 @@
-import {getAllPostIds, getPost} from "../../../lib/posts";
+import {getAllPostIds, getPost} from "../../lib/posts";
 import PageWrapper from "../../components/PageWrapper";
 
 export default function Post({post}: any) {
 	return (
 		<>
 			<div className="bg-white w-full min-h-screen">
-				<PageWrapper title={post.head.title} desc={`Posted at ${post.head.date}`}>
+				<PageWrapper title={post.head.title} desc={post.head.date}>
 					<div dangerouslySetInnerHTML={{__html: post.body}} />
 				</PageWrapper>
 			</div>

@@ -8,8 +8,8 @@ export default function PageWrapper(props: PropsWithChildren<{title: string; des
 				<title>{props.title} • Goethe Gymnasium</title>
 			</Head>
 			<div className="bg-white w-full min-h-screen">
-				<div className="bg-wave2 bg-cover bg-no-repeat bg-center w-full h-[250px]">
-					<div className="flex flex-col justify-center items-center h-[80%]">
+				<div className="bg-wave2 bg-cover bg-no-repeat bg-center w-full h-[190px]">
+					<div className="flex flex-col justify-center items-center h-[70%]">
 						<h1 className="font-title text-7xl text-white font-bold uppercase">{props.title}</h1>
 						<p className="text-base text-white text-opacity-95">{props.desc}</p>
 					</div>

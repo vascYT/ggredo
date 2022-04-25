@@ -1,3 +1,6 @@
+import Link from "next/link";
+import {IoIosArrowForward} from "react-icons/io";
+
 export default function History() {
 	return (
 		<>
@@ -12,6 +15,13 @@ export default function History() {
 							<div className="w-44 h-44 bg-red-400" />
 							<div className="w-44 h-44 bg-red-400" />
 							<div className="w-44 h-44 bg-red-400" />
+						</div>
+						<div className="flex justify-center mt-4">
+							<Link href="/history">
+								<a className="text-ggorange">
+									Mehr erfahren <IoIosArrowForward className="inline-flex h-[15px]" />
+								</a>
+							</Link>
 						</div>
 					</div>
 				</div>
