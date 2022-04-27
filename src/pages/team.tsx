@@ -55,8 +55,13 @@ export default function Team(props: props) {
 		<>
 			<PageWrapper title="Team">
 				<div className="flex flex-col space-y-3 items-center justify-center">
-					{props.teachers.map(teacher => (
-						<TeacherCard name={teacher.name} subjects={teacher.subjects} email={teacher.email} />
+					{props.teachers.map((teacher, index) => (
+						<TeacherCard
+							name={teacher.name}
+							subjects={teacher.subjects}
+							email={teacher.email}
+							key={index}
+						/>
 					))}
 				</div>
 			</PageWrapper>

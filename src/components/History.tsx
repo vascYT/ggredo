@@ -6,7 +6,7 @@ export default function History() {
 		<>
 			<div id="history" className="bg-white text-center xl:text-left">
 				<div>
-					<img src="/wave1.svg" className="w-full" />
+					<img src="/wave1.svg" className="w-full" alt="" />
 					<div className="py-5 px-32">
 						<h1 className="relative text-3xl md:text-4xl font-title mb-6 uppercase opacity-75">
 							Unsere Geschichte
