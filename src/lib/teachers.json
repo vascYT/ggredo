@@ -1,0 +1,1112 @@
+[
+  {
+    "name": {
+      "title": "HR Dir. Mag. Dr.",
+      "first": "Hubert",
+      "last": "KOPESZKI",
+      "abbr": "DIR"
+    },
+    "subjects": [
+      "Bio"
+    ],
+    "email": "hubert.kopeszki@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Administratorin Prof.",
+      "first": "Doris",
+      "last": "LEDERER",
+      "abbr": "LED"
+    },
+    "subjects": [
+      "M",
+      "PP"
+    ],
+    "email": "lederer.doris@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Schulärztin Dr.",
+      "first": "Simone",
+      "last": "KABELE"
+    },
+    "email": "schularzt@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Andrea",
+      "last": "ALBERTS",
+      "abbr": "ALB"
+    },
+    "subjects": [
+      "E",
+      "H"
+    ],
+    "email": "andrea.alberts@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Clara",
+      "last": "ALTMANN",
+      "abbr": "AL C"
+    },
+    "subjects": [
+      "Me"
+    ],
+    "email": "clara.altmann@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Nicole",
+      "last": "ALTMANNINGER-PINIEL",
+      "abbr": "ALT"
+    },
+    "subjects": [
+      "E",
+      "H"
+    ],
+    "email": "nicole.altmanninger@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Stefanie",
+      "last": "BEUCHERT-GRAF",
+      "abbr": "BEU"
+    },
+    "subjects": [
+      "BSm",
+      "Sp"
+    ],
+    "email": "stefanie.beuchert-graf@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Bernadette",
+      "last": "BOGNER-ZISLER",
+      "abbr": "BOG"
+    },
+    "subjects": [
+      "M",
+      "Rk"
+    ],
+    "email": "bernadette.bogner-zisler@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Prof.",
+      "first": "Irene",
+      "last": "BRUNNER-Hübner",
+      "abbr": "B-H"
+    },
+    "subjects": [
+      "D",
+      "H"
+    ],
+    "email": "irene.brunner-huebner@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Anna",
+      "last": "BUCHACHER",
+      "abbr": "BUCH"
+    },
+    "subjects": [
+      "M",
+      "PP"
+    ],
+    "email": "anna.buchacher@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Gheorghe",
+      "last": "DANI",
+      "abbr": "DANI"
+    },
+    "subjects": [
+      "BSk",
+      "H"
+    ],
+    "email": "gheorghe.dani@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "FINK",
+      "last": "Dr.",
+      "abbr": "FINK"
+    },
+    "subjects": [
+      "ME"
+    ],
+    "email": "fink.dr.@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Erna",
+      "last": "FISCHER",
+      "abbr": "FI E"
+    },
+    "subjects": [
+      "D",
+      "H"
+    ],
+    "email": "erna.fischer@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Patricia",
+      "last": "FISCHER-SCHWARZ",
+      "abbr": "FI P"
+    },
+    "subjects": [
+      "E",
+      "PP"
+    ],
+    "email": "patricia.fischer@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Richard",
+      "last": "FISCHER",
+      "abbr": "FI R"
+    },
+    "subjects": [
+      "Rk"
+    ],
+    "email": "richard.fischer@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Prof. Dr.",
+      "first": "Ingrid",
+      "last": "FLECK",
+      "abbr": "FL I"
+    },
+    "subjects": [
+      "D",
+      "H"
+    ],
+    "email": "ingrid.fleck@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Jürgen",
+      "last": "FRICK",
+      "abbr": "FRI"
+    },
+    "subjects": [
+      "Bio",
+      "BS"
+    ],
+    "email": "juergen.frick@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Benedikt",
+      "last": "FRIDRICH",
+      "abbr": "FRID"
+    },
+    "subjects": [
+      "Sp",
+      "H"
+    ],
+    "email": "benedikt.fridrich@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Kathrin",
+      "last": "GÄCHTER",
+      "abbr": "GAE"
+    },
+    "subjects": [
+      "E",
+      "F"
+    ],
+    "email": "kathrin.gaechter@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Isabell",
+      "last": "GAIGG",
+      "abbr": "GAI"
+    },
+    "subjects": [
+      "H",
+      "BS"
+    ],
+    "email": "isabell.gaigg@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Christina",
+      "last": "GEFÄLL",
+      "abbr": "GEF"
+    },
+    "subjects": [
+      "E",
+      "H"
+    ],
+    "email": "christina.gefaell@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Alfons",
+      "last": "GOBER",
+      "abbr": "GOB"
+    },
+    "subjects": [
+      "M",
+      "Ph"
+    ],
+    "email": "alfons.gober@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag. OStR.",
+      "first": "Martin",
+      "last": "GÖSSINGER",
+      "abbr": "GÖSS"
+    },
+    "subjects": [
+      "We",
+      "PP"
+    ],
+    "email": "martin.goessinger@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Prof.",
+      "first": "Kitty",
+      "last": "GRABNER",
+      "abbr": "GRAB"
+    },
+    "subjects": [
+      "M",
+      "PH"
+    ],
+    "email": "kitty.grabner@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Barbara",
+      "last": "GRUBHOFER",
+      "abbr": "GRUB"
+    },
+    "subjects": [
+      "E",
+      "BS"
+    ],
+    "email": "barbara.grubhofer@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Christine",
+      "last": "GUGGENBERG",
+      "abbr": "GUG"
+    },
+    "subjects": [
+      "D",
+      "H",
+      "Info"
+    ],
+    "email": "christine.guggenberg@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Sabina",
+      "last": "HAAS",
+      "abbr": "HAAS"
+    },
+    "subjects": [
+      "BE",
+      "D"
+    ],
+    "email": "sabina.haas@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Julia",
+      "last": "HALDEMANN",
+      "abbr": "HAL"
+    },
+    "subjects": [
+      "D",
+      "PP"
+    ],
+    "email": "julia.haldemann@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Christoph",
+      "last": "HASLINGER",
+      "abbr": "HAS"
+    },
+    "subjects": [
+      "ME",
+      "GG"
+    ],
+    "email": "christoph.haslinger@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Dagmar",
+      "last": "HAUNOLD",
+      "abbr": "HAU"
+    },
+    "subjects": [
+      "E",
+      "H"
+    ],
+    "email": "dagmar.haunold@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Ilse",
+      "last": "HERRGESELL",
+      "abbr": "HER"
+    },
+    "subjects": [
+      "M",
+      "PH"
+    ],
+    "email": "ilse.herrgesell@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Ursula",
+      "last": "HOCH",
+      "abbr": "HOCH"
+    },
+    "subjects": [
+      "E",
+      "It",
+      "BsM"
+    ],
+    "email": "ursula.hoch@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Christoph",
+      "last": "HOFER",
+      "abbr": "HO C"
+    },
+    "subjects": [
+      "BSk",
+      "PP"
+    ],
+    "email": "christoph.hofer@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Fr.",
+      "first": "Karin",
+      "last": "HUBER",
+      "abbr": "HU K"
+    },
+    "subjects": [
+      "We"
+    ],
+    "email": "karin.huber@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Philipp",
+      "last": "HÜBEL",
+      "abbr": "HÜB"
+    },
+    "subjects": [
+      "Rel ev"
+    ],
+    "email": "philipp.huebel@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Anita",
+      "last": "JAKOBITSCH",
+      "abbr": "JAK"
+    },
+    "subjects": [
+      "E",
+      "Sp"
+    ],
+    "email": "anita.jakobitsch@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Tobias",
+      "last": "JUSSEL",
+      "abbr": "JUSS"
+    },
+    "subjects": [
+      "D",
+      "H"
+    ],
+    "email": "tobias.jussel@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Verena",
+      "last": "KEHL",
+      "abbr": "KEH"
+    },
+    "subjects": [
+      "GG",
+      "Inf"
+    ],
+    "email": "verena.kehl@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag. Dr.",
+      "first": "Andrea",
+      "last": "KERN",
+      "abbr": "KE A"
+    },
+    "subjects": [
+      "D",
+      "H"
+    ],
+    "email": "andrea.kern@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag. DI.",
+      "first": "Jürgen",
+      "last": "KERN-PETER",
+      "abbr": "KERN"
+    },
+    "subjects": [
+      "Ch"
+    ],
+    "email": "juergen.kern@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Christoph",
+      "last": "KIRNER",
+      "abbr": "KIR"
+    },
+    "subjects": [
+      "D",
+      "H"
+    ],
+    "email": "christoph.kirner@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Larisa",
+      "last": "KOCUBEJ",
+      "abbr": "KOCU"
+    },
+    "subjects": [
+      "Be",
+      "We"
+    ],
+    "email": "larisa.kocubej@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Prof. OStR.",
+      "first": "Susanna",
+      "last": "KOPINITS",
+      "abbr": "KO S"
+    },
+    "subjects": [
+      "D",
+      "F"
+    ],
+    "email": "susanna.kopinits@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag. MA",
+      "first": "Rosemarie",
+      "last": "LANG",
+      "abbr": "LAN"
+    },
+    "subjects": [
+      "D",
+      "Rk"
+    ],
+    "email": "rosemarie.lang@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Valentina",
+      "last": "LANGREITER"
+    },
+    "email": "valentina.langreiter@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Brigitte",
+      "last": "LÖW",
+      "abbr": "LÖW"
+    },
+    "subjects": [
+      "BE",
+      "We"
+    ],
+    "email": "brigitte.loew@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Doris",
+      "last": "LUBICH",
+      "abbr": "LUB"
+    },
+    "subjects": [
+      "M",
+      "H"
+    ],
+    "email": "doris.lubich@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Clara",
+      "last": "MAZAL",
+      "abbr": "MAZ"
+    },
+    "subjects": [
+      "Sp",
+      "F"
+    ],
+    "email": "clara.mazal@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Anita",
+      "last": "MANISCALCO",
+      "abbr": "MAN"
+    },
+    "subjects": [
+      "BE"
+    ],
+    "email": "anita.maniscalco@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag. OStR.",
+      "first": "Friederike",
+      "last": "MELCHERT",
+      "abbr": "MEL"
+    },
+    "subjects": [
+      "GG",
+      "H"
+    ],
+    "email": "friederike.melchert@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Heidrun",
+      "last": "MITTERMAIR",
+      "abbr": "MIT"
+    },
+    "subjects": [
+      "TB"
+    ]
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Sieglinde",
+      "last": "MÖRWALD",
+      "abbr": "MOE"
+    },
+    "subjects": [
+      "M",
+      "Gg"
+    ],
+    "email": "sieglinde.moerwald@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Anique",
+      "last": "OLIVER",
+      "abbr": "OLI"
+    },
+    "subjects": [
+      "Be",
+      "We"
+    ],
+    "email": "anique.oliver@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Stefan",
+      "last": "OSTERIDER",
+      "abbr": "OST"
+    },
+    "subjects": [
+      "Be",
+      "We"
+    ],
+    "email": "stefan.osterider@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Sonja",
+      "last": "PALKA",
+      "abbr": "PAL"
+    },
+    "subjects": [
+      "E",
+      "F"
+    ],
+    "email": "sonja.palka@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Katrin",
+      "last": "PAMPERL",
+      "abbr": "PAM"
+    },
+    "subjects": [
+      "M",
+      "Gg"
+    ],
+    "email": "katrin.pamperl@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Iris",
+      "last": "PAUR",
+      "abbr": "PAU"
+    },
+    "subjects": [
+      "E",
+      "F"
+    ],
+    "email": "iris.paur@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Peter",
+      "last": "PINIEL",
+      "abbr": "PIN"
+    },
+    "subjects": [
+      "BSk",
+      "H"
+    ],
+    "email": "peter.piniel@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Sandra",
+      "last": "PÖLZL",
+      "abbr": "PÖL"
+    },
+    "subjects": [
+      "H",
+      "Gg"
+    ],
+    "email": "sandra.poelzl@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Prof.",
+      "first": "Wilma",
+      "last": "PÖPPEL-WEIDMANN",
+      "abbr": "P-W"
+    },
+    "subjects": [
+      "Bio",
+      "Ch"
+    ],
+    "email": "wilma.poeppel@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag. M.Ed.",
+      "first": "Adelheid",
+      "last": "PUTZ",
+      "abbr": "PUTZ"
+    },
+    "subjects": [
+      "Rk",
+      "D"
+    ],
+    "email": "adelheid.putz@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Vanessa",
+      "last": "REITER",
+      "abbr": "REIT"
+    },
+    "subjects": [
+      "M",
+      "DG"
+    ],
+    "email": "vanessa.reiter@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Edith",
+      "last": "RINGHOFER",
+      "abbr": "RING"
+    },
+    "subjects": [
+      "Bio",
+      "BS"
+    ],
+    "email": "edith.ringhofer@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Josef",
+      "last": "ROTTENSTEINER",
+      "abbr": "ROT"
+    },
+    "subjects": [
+      "BS",
+      "Sp"
+    ],
+    "email": "josef.rottensteiner@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Carla",
+      "last": "SCHEFBERGER",
+      "abbr": "SFB"
+    },
+    "subjects": [
+      "Rk",
+      "H"
+    ],
+    "email": "carla.schefberger@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Karin",
+      "last": "SCHINNERL",
+      "abbr": "S K"
+    },
+    "subjects": [
+      "GG",
+      "BSm"
+    ],
+    "email": "karin.schinnerl@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Sophie",
+      "last": "SCHÖNWÄLDER",
+      "abbr": "SW"
+    },
+    "subjects": [
+      "D",
+      "F"
+    ],
+    "email": "sophie.schoenwaelder@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Michelle",
+      "last": "SCHWAIGER",
+      "abbr": "SWAI"
+    },
+    "subjects": [
+      "E",
+      "PP"
+    ],
+    "email": "michelle.schwaiger@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag. DI",
+      "first": "Bernhard",
+      "last": "SCHWEIGER",
+      "abbr": "SWG"
+    },
+    "subjects": [
+      "Inf"
+    ],
+    "email": "bernhard.schweiger@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Verena",
+      "last": "STEINDL",
+      "abbr": "ST V"
+    },
+    "subjects": [
+      "BSm"
+    ],
+    "email": "verena.steindl@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Christian",
+      "last": "STEINER",
+      "abbr": "STEI"
+    },
+    "subjects": [
+      "M",
+      "Ph"
+    ],
+    "email": "christian.steiner@astgasse.net"
+  },
+  {
+    "name": {
+      "first": "Lydia",
+      "last": "STEININGER",
+      "abbr": "ST L"
+    },
+    "subjects": [
+      "Rk"
+    ],
+    "email": "lydia.steininger@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Martina",
+      "last": "STOLAVETZ",
+      "abbr": "STO"
+    },
+    "subjects": [
+      "E",
+      "Rk"
+    ],
+    "email": "martina.stolavetz@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag. OStR.",
+      "first": "Michaela",
+      "last": "STREUSELBERGER",
+      "abbr": "ST M"
+    },
+    "subjects": [
+      "M",
+      "F",
+      "Inf",
+      "Gz"
+    ],
+    "email": "michaela.streuselberger@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Thomas",
+      "last": "STREUSELBERGER",
+      "abbr": "ST T"
+    },
+    "subjects": [
+      "M",
+      "Ph"
+    ],
+    "email": "thomas.streuselberger@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Dietmar",
+      "last": "STÜCKLER",
+      "abbr": "STÜ"
+    },
+    "subjects": [
+      "Bio"
+    ],
+    "email": "dietmar.stueckler@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Prof.",
+      "first": "Friederike",
+      "last": "THOMA",
+      "abbr": "THO"
+    },
+    "subjects": [
+      "F",
+      "BS"
+    ],
+    "email": "friederike.thoma@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Doris",
+      "last": "TIMMEL",
+      "abbr": "TIM"
+    },
+    "subjects": [
+      "Spa",
+      "PP"
+    ],
+    "email": "doris.timmel@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Nicole",
+      "last": "TRETTER-KEGLOVITS",
+      "abbr": "TR"
+    },
+    "subjects": [
+      "E",
+      "Sp"
+    ],
+    "email": "nicole.tretter-keglovits@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Bettina",
+      "last": "TRÖGL",
+      "abbr": "TRÖ"
+    },
+    "subjects": [
+      "E",
+      "F"
+    ],
+    "email": "bettina.troegl@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Gerald",
+      "last": "TRPAK",
+      "abbr": "TRP"
+    },
+    "subjects": [
+      "E",
+      "Gg"
+    ],
+    "email": "gerald.trpak@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Bernhard",
+      "last": "VALLANT",
+      "abbr": "VAL"
+    },
+    "subjects": [
+      "L",
+      "Gr"
+    ],
+    "email": "bernhard.vallant@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Ulrike",
+      "last": "WESTERMAYER-STÖSSL",
+      "abbr": "WST"
+    },
+    "subjects": [
+      "E",
+      "D"
+    ],
+    "email": "ulrike.westermayer@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Julia",
+      "last": "WINDISCHHOFER-HALDEMANN",
+      "abbr": "WIND"
+    },
+    "subjects": [
+      "D",
+      "PP"
+    ],
+    "email": "julia.windischhofer-haldemann@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Mag.",
+      "first": "Claudia",
+      "last": "WOLF",
+      "abbr": "WOLF"
+    },
+    "subjects": [
+      "F",
+      "D"
+    ],
+    "email": "claudia.wolf@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Prof.",
+      "first": "Annegret",
+      "last": "WÜRTZ",
+      "abbr": "WÜ"
+    },
+    "subjects": [
+      "F",
+      "H"
+    ],
+    "email": "annegret.wuertz@astgasse.net"
+  },
+  {
+    "name": {
+      "title": "Prof.",
+      "first": "Susanne",
+      "last": "ZHUBER",
+      "abbr": "ZHU"
+    },
+    "subjects": [
+      "M",
+      "Ph"
+    ],
+    "email": "susanne.zhuber@astgasse.net"
+  }
+]

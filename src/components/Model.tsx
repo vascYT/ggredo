@@ -12,6 +12,7 @@ export default function Model() {
 		<Canvas
 			camera={{position: [0, 0, 200], fov: 50}}
 			className="cursor-grab active:cursor-grabbing"
+			style={{height: "60vh"}}
 		>
 			<ambientLight intensity={0.5} />
 			<pointLight position={[100, 300, 100]} />
