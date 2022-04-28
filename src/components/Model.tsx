@@ -3,7 +3,7 @@ import {Canvas} from "@react-three/fiber";
 import {Suspense} from "react";
 
 function Astgasse() {
-	const {scene} = useGLTF("/astgasse_v0.4.glb");
+	const {scene} = useGLTF("/astgasse_v0.5.glb");
 	return <primitive object={scene} />;
 }
 
