@@ -2,10 +2,10 @@ import Intro from "../components/Intro";
 import Head from "next/head";
 import Posts from "../components/Posts";
 import Disclaimer from "../components/Disclaimer";
-import {getPosts} from "../lib/posts";
 import History from "../components/History";
+import {prisma} from "../lib/prisma";
 
-export default function Home({posts, gitHash}: any) {
+export default function Home({posts}: any) {
 	return (
 		<>
 			<Head>
@@ -19,8 +19,8 @@ export default function Home({posts, gitHash}: any) {
 	);
 }
 
-export async function getStaticProps() {
-	const posts = getPosts();
+export async function getServerSideProps() {
+	const posts = await prisma.post.findMany({take: 3, orderBy: {id: "desc"}});
 	return {
 		props: {
 			posts,

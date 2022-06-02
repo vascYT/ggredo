@@ -12,7 +12,7 @@ interface TeacherCardProps {
 }
 function TeacherCard(props: PropsWithChildren<TeacherCardProps>) {
 	return (
-		<div className="bg-gray-200 w-2/3 rounded-lg p-5 shadow-md">
+		<div className="bg-gray-200 w-full md:w-2/3 rounded-lg p-5 shadow-md">
 			<div className="flex items-end space-x-2">
 				<h1 className="font-title text-2xl font-semibold">
 					{props.name.title} {props.name.last.toUpperCase()} {props.name.first}
