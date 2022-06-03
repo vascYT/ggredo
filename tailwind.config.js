@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			text: ["ui-sans-serif", "system-ui"],
-			title: ["Montserrat", "sans-serif"],
+			title: ["Montserrat", "ui-sans-serif", "system-ui"],
 		},
 		extend: {
 			backgroundImage: {
