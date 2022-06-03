@@ -40,7 +40,7 @@ export async function getServerSideProps({params, query}: any) {
 	const skip = query.skip ? Number.parseInt(query.skip) : 0;
 
 	const posts = await prisma.post.findMany({
-		// take: 10,
+		take: 10,
 		orderBy: {
 			id: "desc",
 		},
